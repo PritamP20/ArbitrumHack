@@ -3,7 +3,7 @@
 # Run this script from the apps/frontend directory
 
 echo "====================================="
-echo "EthOnline Frontend Setup"
+echo "ArbitrumHack Frontend Setup"
 echo "====================================="
 echo ""
 

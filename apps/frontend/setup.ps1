@@ -2,7 +2,7 @@
 # Run this script from the apps/frontend directory
 
 Write-Host "=====================================" -ForegroundColor Cyan
-Write-Host "EthOnline Frontend Setup" -ForegroundColor Cyan
+Write-Host "ArbitrumHack Frontend Setup" -ForegroundColor Cyan
 Write-Host "=====================================" -ForegroundColor Cyan
 Write-Host ""
 

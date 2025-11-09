@@ -1,5 +1,5 @@
 {
-  "name": "EthOnline205",
+  "name": "ArbitrumHack205",
   "private": true,
   "scripts": {
     "build": "turbo run build",

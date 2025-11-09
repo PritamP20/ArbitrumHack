@@ -1,6 +1,6 @@
 # Frontend Deployment Guide
 
-This guide will help you deploy the EthOnline frontend application to production.
+This guide will help you deploy the ArbitrumHack frontend application to production.
 
 ## 🔧 Environment Variables
 
@@ -207,7 +207,7 @@ The application will be available at `http://localhost:3000`.
 
 2. **Build Docker Image**
    ```bash
-   docker build -t ethonline-frontend \
+   docker build -t ArbitrumHack-frontend \
      --build-arg NEXT_PUBLIC_ENVIO_API_URL=https://your-backend.com \
      --build-arg NEXT_PUBLIC_TWITTER_API_KEY=your_key \
      .
@@ -218,7 +218,7 @@ The application will be available at `http://localhost:3000`.
    docker run -p 3000:3000 \
      -e NEXT_PUBLIC_ENVIO_API_URL=https://your-backend.com \
      -e NEXT_PUBLIC_TWITTER_API_KEY=your_key \
-     ethonline-frontend
+     ArbitrumHack-frontend
    ```
 
 ### Option 4: Traditional VPS (AWS EC2, DigitalOcean, etc.)
@@ -231,8 +231,8 @@ The application will be available at `http://localhost:3000`.
 
 2. **Clone your repository**
    ```bash
-   git clone https://github.com/your-username/EthOnline.git
-   cd EthOnline/apps/frontend
+   git clone https://github.com/your-username/ArbitrumHack.git
+   cd ArbitrumHack/apps/frontend
    ```
 
 3. **Install dependencies**
@@ -254,7 +254,7 @@ The application will be available at `http://localhost:3000`.
 6. **Start with PM2 (Process Manager)**
    ```bash
    sudo npm install -g pm2
-   pm2 start npm --name "ethonline-frontend" -- start
+   pm2 start npm --name "ArbitrumHack-frontend" -- start
    pm2 save
    pm2 startup
    ```

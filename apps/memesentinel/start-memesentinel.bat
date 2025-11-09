@@ -8,7 +8,7 @@ echo ============================================
 echo.
 
 :: Change to the correct directory
-cd /d "C:\Users\hemav\OneDrive\Desktop\eo\EthOnline\apps\memesentinel"
+cd /d "C:\Users\hemav\OneDrive\Desktop\eo\ArbitrumHack\apps\memesentinel"
 
 :: Check if we're in the right place
 if not exist "package.json" (
